@@ -6,8 +6,8 @@ int main(){
     int y = 8 ;
     cout<<x<<" "<<y<<endl ;
     int temp = x ;
-    int y = x;
-    int y = temp ;
+    x = y;
+    y = temp ;
     cout<<x<<" "<<y<<endl ;
     return 0 ;
 }
